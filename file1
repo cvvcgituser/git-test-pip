@@ -4,3 +4,10 @@ changes made to check git pull
 acs
 task4
 git branching strategies
+<<<<<<< HEAD
+rebase concep
+
+eafeahfihweiahfieht
+=======
+rebase concept
+>>>>>>> 9b36012 (1.8)
