@@ -1,0 +1,19 @@
+Squashing by Interactive Rebase
+Before we start, let's create a Git alias slog (stands for short log) to show Git commit logs in a compact view:
+
+git config --global alias.slog = log --graph --all --topo-order --pretty='format:%h %ai %s%d (%an)'
+Copy
+We've prepared a Git repository as an example:
+
+$ git slog
+* ac7dd5f 2021-08-23 23:29:15 +0200 Commit D (HEAD -> master) (Kai Yuan)
+* 5de0b6f 2021-08-23 23:29:08 +0200 Commit C (Kai Yuan)
+* 54a204d 2021-08-23 23:29:02 +0200 Commit B (Kai Yuan)
+* c407062 2021-08-23 23:28:56 +0200 Commit A (Kai Yuan)
+* 29976c5 2021-08-23 23:28:33 +0200 BugFix #1 (Kai Yuan)
+* 34fbfeb 2021-08-23 23:28:19 +0200 Feature1 implemented (Kai Yuan)
+* cbd350d 2021-08-23 23:26:19 +0200 Init commit (Kai Yuan)
+Copy
+Git's interactive rebase will list all relevant commits in the default editor. In this case, those are the commits we want to squash.
+
+Then we can control each commit and commit message as we want and save the change in the editor.
