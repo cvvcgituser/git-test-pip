@@ -1,0 +1,8 @@
+When to Squash Commits?
+Simply put, we use squashing to keep the branch graph clean.
+
+Let's imagine how we implement a new feature. Usually, we'll commit multiple times before we reach a satisfactory result, such as some fixes and tests.
+
+However, when we've implemented the feature, those intermediate commits look redundant. So, we may want to squash our commits into one.
+
+Another common scenario where we want to squash commits is merging branches.
