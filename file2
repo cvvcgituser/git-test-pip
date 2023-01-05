@@ -1,8 +1,4 @@
-<<<<<<< HEAD
- acs test chnages 
-=======
-test changes
->>>>>>> eb62438762c2e333d95c082a658d6e583cd9ff0a
+:
 
 How to Rebase
 When you made some commits on a feature branch (test branch) and some in the master branch. You can rebase any of these branches. Use the git log command to track the changes (commit history). Checkout to the desired branch you want to rebase. Now perform the rebase command as follows:
