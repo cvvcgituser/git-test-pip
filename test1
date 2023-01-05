@@ -1,0 +1,8 @@
+Git Commit Commands
+git status – Display a list of files in your staging directory with accompanying file status.
+git add – Stage file changes. Running this command with an associated file name will stage the file changes to your staging directory.
+git commit – Save changes to your Git repository. Running this command with an associated file name will save the file changes to your repo.
+git commit -a – Add all modified and deleted files in your working directory to the current commit.
+git commit --amend – AMEND A GIT COMMIT. Edit a Git commit message by adding a message in quotation marks after the command.
+git commit -m – Add a Git commit message. Add your message in quotation marks following the command.
+
