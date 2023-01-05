@@ -1,7 +1,0 @@
-Git Config Commands
-git config --global –  Customize configurations stored in your home directory, and can overwrite Git config system settings.
-git config --email – Sets the email associated with your Git commits and other Git actions.
-git config --system – Customize configuration settings for your operating system.
-git --config user.name – Sets the username associated with your Git commits and other Git actions.
-git config --list – View all of your Git config settings including the local, global, and system levels.
-git config --local – Customize settings that are Git repository specific and overwrite Git configurations on the global and system level.
